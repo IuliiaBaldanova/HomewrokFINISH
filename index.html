@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Карточки</title>
+<style>
+    div.Market {
+        border: 2px solid pink;
+        width: 30%;
+    }
+
+    div.Market img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.title {
+        padding: 20px;
+        text-align: center;
+    }
+
+    div.flex-container {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px;
+    } 
+    @media screen and (max-width: 450px) {
+        div.Market {
+            width: 100%;
+        }
+    }
+
+
+    
+
+</style>
+
+</head>
+<body>
+    <div class="flex-container">
+        <div class="Market">
+    <img src="https://i.pinimg.com/564x/7e/16/ff/7e16ff905bfd6990de1dd9d97df24a42.jpg" alt="Wildberries">
+    <div class="title">Wildberries</div>
+    </div>
+    <div class="Market">
+    <img src="https://i.pinimg.com/564x/85/ce/a9/85cea9d9d142f923d904a724147b4dab.jpg" alt="Ozon">
+    <div class="title">Ozon</div>
+    </div>
+    <div class="Market">
+    <img src="https://i.pinimg.com/564x/08/47/a3/0847a3921d6be1bbcdaa6d613463c82a.jpg" alt="Aliexpress">
+    <div class="title">Aliexpress</div>
+   </div>
+    </div>
+    </body>
+</html>
