@@ -10,7 +10,7 @@ let myAge= `My age now ${thisYear - yearOfBirth}`;
 console.log(myAge);
 let straboutMe= `I have wonderful children Tatiana and Maxim. 
 My daughter wants to become a surgeon. 
-Maxim dreams of becomingan engineer,as his idol is Ilon Mask. 
+Maxim dreams of becoming an engineer,as his idol is Ilon Mask. 
 My husband is an electrician. 
 I have always worked in government agencies. 
 My parents are pensioners`
