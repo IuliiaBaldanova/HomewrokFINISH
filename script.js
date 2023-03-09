@@ -12,7 +12,7 @@
       // alert(result1);
 
 
-function raznica(priceCooking, priceSale) {
+function raznica(priceSale, priceCooking) {
   return priceSale - priceCooking;
 
 };

@@ -12,7 +12,7 @@
       // alert(result1);
 
 
-function raznica(priceCooking, priceSale) {
+function raznica(priceSale, priceCooking) {
   return priceSale - priceCooking;
 
 };
@@ -95,12 +95,7 @@ for (let i = 0; i < menu.length; i++) {
       menu[i].profit = raznica(menu[i].priceSale, menu[i].priceCooking);
       result += `Dish: ${menu[i].name} ; saleProfit: ${menu[i].profit}`};
 alert(result);
-
   
 
-//   resultText += `Блюдо: ${meals[i].name} ; Прибыль от продажи: ${meals[i].profit}\n`;
-// };
-
-// alert(resultText);
 
 
