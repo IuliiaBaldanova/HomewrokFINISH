@@ -93,7 +93,7 @@ console.log(isVeganMenu);
 // Определите, полностью ли у вас вегетарианское меню с помощью `every`.
 
 let isContainesVeganMenu = menu.every(function (item, index, arr) {
-    let analysisMenu = item.ingredients.some(function (item, index, arr) {
+    let analysisMenu = item.ingredients.every(function (item, index, arr) {
         return !ingredientsNotVegan.includes(item);
     });
     return analysisMenu;
