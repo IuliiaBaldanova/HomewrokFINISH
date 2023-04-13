@@ -86,7 +86,9 @@ console.log(namePrice);
 // Определите, есть ли в меню хоть одно вегетарианское блюдо, используя `some`.
 
 let isVeganMenu = menu.some(function (item, index, arr) {
-    return menu.includes(item);
+    return item.ingredients.every(function (item, index, arr) {
+        return !ingredientsNotVegan.includes(item);
+    });
 });
 console.log(isVeganMenu);
 
