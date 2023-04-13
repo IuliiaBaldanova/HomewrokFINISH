@@ -1,4 +1,4 @@
-import checklogin from '../modules/get_value.js';
+import checklogin from './modules/get_value.js';
 
 
 let loginPass = {
