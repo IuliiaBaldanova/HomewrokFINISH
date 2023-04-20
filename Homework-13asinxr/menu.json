@@ -1,0 +1,42 @@
+[
+    {
+        "name": "carbonara",
+        "ingredients": [
+            "noodles",
+            "bacon",
+            "cream"
+        ],
+        "priceCooking": 0,
+        "priceSale": 90
+    },
+    {
+        "name": "sushi",
+        "ingredients": [
+            "rice",
+            "shrimps",
+            "avocado"
+        ],
+        "priceCooking": 0,
+        "priceSale": 105
+    },
+    {
+        "name": "buuzi",
+        "ingredients": [
+            "daugh",
+            "beef",
+            "pork"
+        ],
+        "priceCooking": 0,
+        "priceSale": 180
+    },
+    {
+        "name": "merenga",
+        "ingredients": [
+            "protein",
+            "sugar",
+            "berries"
+        ],
+        "priceCooking": 0,
+        "priceSale": 170
+    }
+]

@@ -1,0 +1,50 @@
+{
+        "noodles": {
+                "vegan": true,
+                "price": 15
+        },
+        "bacon": {
+                "vegan": false,
+                "price": 30
+        },
+        "cream": {
+                "vegan": true,
+                "price": 25
+        },
+        "rice": {
+                "vegan": true,
+                "price": 15
+        },
+        "shrimps": {
+                "vegan": false,
+                "price": 25
+        },
+        "avocado": {
+                "vegan": true,
+                "price": 8
+        },
+        "daugh": {
+                "vegan": true,
+                "price": 5
+        },
+        "beef": {
+                "vegan": false,
+                "price": 23
+        },
+        "pork": {
+                "vegan": false,
+                "price": 7
+        },
+        "protein": {
+                "vegan": true,
+                "price": 12
+        },
+        "sugar": {
+                "vegan": true,
+                "price": 15
+        },
+        "berries": {
+                "vegan": true,
+                "price": 17
+        }
+}
