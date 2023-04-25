@@ -1,11 +1,11 @@
 let menu;
 
-fetch("/menu.json")
+fetch("menu.json")
     .then((r) => r.json())
     .then((r) => {
         menu = r
         console.log(menu);
-        return fetch("/price.json")
+        return fetch("price.json")
             .then((r) => r.json());
     })
     .then((r) => {
